@@ -1,9 +1,72 @@
-.title {
-    color: #02ccba;
-  }
+  
+body, h1, h2, p, form, input, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 1280px;
+  font-family:"Lucida Grande";
+}
+header{
+  background-color: rgb(0, 255, 234);
+  height:90px;
+  display: flex;
+}
+.header-logo{
+  font-size: 36px;
+  padding:20px 40px;
+}
+.header-list ul{
+  display: flex;
+  list-style: none;
+}
+.header-list li{
+  padding:33px 20px;
+}
+header a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
 
+main{
+  padding:100px 80px;
+}
+
+.copy-container h1{
+    font-size: 120px;
+}
+.copy-container h2{
+    font-size: 80px;
+}
+.copy-container span{
+  color: red;
+}
+
+.contents-container{
+  margin-top: 100px;
+}
+.section-title{
+  border:2px solid #dee7ec;
+  font-size:28px;
+  padding-top:15px;
+  margin-bottom:50px;
+}
+.img{
+  width: 800px;
+  height: 600px;
+}
 .air {
   color : blue ;
   font-size: 24px;
-
+  font-style: bold;
+}
+a:hover{
+  color:red;
+}
+a:active{
+  color:pink;
+}
+footer{
+  background-color:yellow;
+  height:120px
 }
