@@ -33,23 +33,26 @@ main{
 }
 
 .copy-container h1{
-    font-size: 120px;
+    font-size: 110px;
 }
 .copy-container h2{
-    font-size: 80px;
+    font-size: 70px;
 }
 .copy-container span{
   color: red;
 }
 
 .contents-container{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .section-title{
   border:2px solid #dee7ec;
   font-size:28px;
   padding-top:15px;
-  margin-bottom:50px;
+}
+
+.contents-item{
+  margin:20px 0px;
 }
 .img{
   width: 800px;
@@ -66,7 +69,34 @@ a:hover{
 a:active{
   color:pink;
 }
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.contact-container{
+  margin-top:50px;
+}
+input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
 footer{
   background-color:yellow;
-  height:120px
+  height:120px;
+  padding:40px;
+}
+footer li{
+  padding:10px 0px;
 }
